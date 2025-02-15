@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello, Epson Printer!"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/printIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_print_24"
+        android:contentDescription="Print Icon"
+        android:padding="10dp"
+        android:onClick="printTextViewText"/>
+</LinearLayout>
